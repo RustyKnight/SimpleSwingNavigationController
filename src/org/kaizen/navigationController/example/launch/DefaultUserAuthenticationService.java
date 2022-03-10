@@ -22,11 +22,11 @@ public class DefaultUserAuthenticationService implements UserAuthenticationServi
         new Thread(new Runnable() {
             @Override
             public void run() {
-                if (rnd.nextBoolean()) {
+//                if (rnd.nextBoolean()) {
                     observer.authenticationWasSucessful(new DefaultUser(userName));
-                } else {
-                    observer.authenticationDidFail();
-                }
+//                } else {
+//                    observer.authenticationDidFail();
+//                }
             }
         }).start();
     }
