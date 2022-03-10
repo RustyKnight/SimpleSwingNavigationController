@@ -4,6 +4,8 @@ This is a conceptual experiment into trying to devise page navigation controller
 
 It also attempts to alleviate the need for any view to adopt any kind conformity (ie `interface`), thus allowing just about any view to be used
 
+<img src="QuickNav.gif">
+
 # Requirements
 
 ![Java](https://img.shields.io/badge/Java-16.0.2-orange) ![Netbeans](https://img.shields.io/badge/Netbeans-12.4-orange)
