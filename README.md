@@ -30,7 +30,7 @@ Views can be presented in a non-linear fashion.  This allows implementations of 
 
 As stated, this is an experimental work in progress.
 
-The model isn’t really do anything.  The controller already maintains a stack of its own, so the model really isn’t required to support this.  Preferably, the model should be managing some kind of “state” or “context” and the business logic which should determine which views should be presented when.
+The model isn’t really doing anything.  The controller already maintains a stack of its own, so the model really isn’t required to support this.  Preferably, the model should be managing some kind of “state” or “context” and the business logic which should determine which views should be presented when.
 The “view factory”, while it decouples the creation of the views from the model and controller in a suitable way, adds a lot of additional overhead.
 
 It would be nice to have the model perform this operation, but a model shouldn’t be generating view components, that’s not it’s responsibility.  Equally, I was trying to avoid requiring the developer to extend from the controller itself to implement this functionality.
